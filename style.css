@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 100px;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #153677, #4e085f);
+}
+
+.results {
+  background-color: #fff;
+  width: 100%;
+  max-width: 400px;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+button {
+  padding: 10px;
+  background: linear-gradient(135deg, #153677, #4e085f);
+  border-radius: 10px;
+  color: white;
+}
+
+#rock,
+#paper,
+#scissors {
+  border: none;
+  outline: none;
+  margin-left: 45px;
+  margin-top: 10px;
+  font-size: 1rem;
+}
